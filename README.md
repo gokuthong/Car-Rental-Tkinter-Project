@@ -62,6 +62,21 @@ This project is a comprehensive **Car Rental Management System** designed to str
 - **SearchPage/**: Modules related to the car search functionality.  
 - **ConfirmBookingPage/**: Modules for the booking confirmation window.
 
+## Database Management  
+The main database used in this system is located at:  
+- `Car Rental Tkinter Main/chen/buildregister/customer_registration.db`
+
+This SQLite database is central to the operation of the Car Rental Management System. All relevant data, including customer information, booking details, car inventory, and admin records, are stored within this database.  
+
+### Collaborative Development of the Database  
+All team members contributed to the creation and structuring of the database:
+
+- **Bryan Tey**: Assisted with the integration of the database into the system, ensuring data is correctly handled between the frontend and backend, particularly for admin-related tasks.
+- **Lau Zi Chen**: Focused on the design and structure of the database, ensuring that all tables (such as customers, cars, bookings, and payments) were properly defined and related. Lau also worked on populating the database with initial data and queries.
+- **Thong Wai Kit**: Contributed to ensuring that the database supports all necessary functionality related to user profiles, bookings, and reviews.
+
+By working together, we ensured that the database design supports efficient data management and retrieval across all components of the system, from user sign-ups and car searches to booking confirmations and admin tools.
+
 ## Dependencies  
 Make sure you have the following Python libraries installed:  
 - **tkinter**  

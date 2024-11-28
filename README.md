@@ -1,15 +1,15 @@
 # Car Rental Management System
 
 ## Project Overview  
-This project is a comprehensive Car Rental Management System designed to streamline the car rental process for customers and administrators. The system allows users to search for cars, make bookings, and manage rentals efficiently. It also provides admins with tools to oversee bookings, manage car inventory, and handle customer support.  
+This project is a comprehensive **Car Rental Management System** designed to streamline the car rental process for customers and administrators. The system allows users to search for cars, make bookings, and manage rentals efficiently. It also provides admins with tools to oversee bookings, manage car inventory, and handle customer support.  
 
 ## Features  
-- User Authentication: Secure login for customers and admins.  
-- Search and Filter Options: Find cars based on type, seating capacity, rate, and location.  
-- Booking Management: Book cars with confirmation windows showing detailed information.  
-- Admin Dashboard: Tools for managing cars, bookings, and customer interactions.  
-- Interactive GUI: Built using Tkinter, ensuring a user-friendly interface.  
-- Database Management: Data is stored in an SQLite3 database, ensuring data integrity.  
+- **User Authentication**: Secure login for customers and admins.  
+- **Search and Filter Options**: Find cars based on type, seating capacity, rate, and location.  
+- **Booking Management**: Book cars with confirmation windows showing detailed information.  
+- **Admin Dashboard**: Tools for managing cars, bookings, and customer interactions.  
+- **Interactive GUI**: Built using Tkinter, ensuring a user-friendly interface.  
+- **Database Management**: Data is stored in an SQLite3 database, ensuring data integrity.  
 
 ## Development Details  
 
@@ -19,13 +19,16 @@ This project is a comprehensive Car Rental Management System designed to streaml
     - `Car Rental Tkinter Main/chen/buildregister/admindashboard.py`  
     - `Car Rental Tkinter Main/chen/buildregister/support.py`  
     - Folders: `Car Rental Tkinter Main/SearchPage`, `Car Rental Tkinter Main/ConfirmBookingPage`  
+  - **Role**: Developed the admin dashboard functionalities, support system, and the booking confirmation modules. Bryan also played a key role in linking all components of the project together by integrating the backend functionality with the front-end user interface.
 
 - **Lau Zi Chen**  
   - Files:  
     - All remaining files in the `Car Rental Tkinter Main/chen` folder.  
+  - **Role**: Developed the core functionalities of the application, including the login and registration pages, the car import and update pages, the car display page, as well as managing the database integration for the car, booking, and user data.
 
 - **Thong Wai Kit**  
   - Folder: `Car Rental Tkinter Main/kit`  
+  - **Role**: Developed modules related to the home page, user profiles, user and admin headers, booking lists, reviews page, and profile modification functionalities. Wai Kit also worked on the booking list and profile views for both registered and unregistered users.
 
 ### Technologies Used  
 1. **Python**: Primary programming language.  
@@ -54,10 +57,10 @@ This project is a comprehensive Car Rental Management System designed to streaml
    ```  
 
 ## Folder Structure  
-- `chen/`: Contains core application modules for the login and register pages, admin dashboard, importing and updating car pages, user and admin headers, display cars page, and the main database
-- `kit/`: Modules for registered and unregistered users' home pages, reviews page, user and admin booking lists, and profile and modifying profile pages.
-- `SearchPage/`: Modules related to the car search functionality.  
-- `ConfirmBookingPage/`: Modules for the booking confirmation window.
+- **chen/**: Contains core application modules for the login and register pages, admin dashboard, importing and updating car pages, user and admin headers, display cars page, and the main database.
+- **kit/**: Modules for registered and unregistered users' home pages, reviews page, user and admin booking lists, and profile and modifying profile pages.
+- **SearchPage/**: Modules related to the car search functionality.  
+- **ConfirmBookingPage/**: Modules for the booking confirmation window.
 
 ## Dependencies  
 Make sure you have the following Python libraries installed:  
@@ -68,9 +71,9 @@ Make sure you have the following Python libraries installed:
 
 ## Acknowledgments  
 We would like to acknowledge the contributions of all team members:  
-- Bryan Tey for the admin functionalities, support system, and booking confirmation modules.  
-- Lau Zi Chen for the core functionalities and database management.  
-- Thong Wai Kit for utility tools.  
+- **Bryan Tey** for the development of admin dashboard functionalities, the support system, and the booking confirmation modules. Bryan also linked all the files together in the back end, ensuring seamless interaction between the system's components.  
+- **Lau Zi Chen** for developing the core functionalities, including the login and registration processes, car import and update pages, and managing the database integration.  
+- **Thong Wai Kit** for designing and developing the user-facing features such as the home page, user profiles, booking list, payment, and review system.
 
 ## License  
 This project is licensed under the MIT License.
